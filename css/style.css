@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
+#container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 250px ;
+}
+#profile{
+    margin-left: 2rem;
+    margin-top: 3rem;
+    height: 100%;
+    border-right: 2px solid white;
+}
+#para{
+    margin-top: 2rem;
+    background-color: black;
+}
+#text{
+    color: white;
+    font-family: "Lekton", monospace;
+    margin-left: 30px;
+}
+#name
+{
+    color: white;
+    font-family: "Lekton", monospace;
+}
+#link{
+    border-radius: 2px;
+    height: 20px;
+    margin-right: 10px;
+}
+#photo{
+    height: 300px;
+    width: 250px;
+    margin-right: 10px;
+}
+#photocontainer{
+    display: flex;
+}
+#list{
+    margin: 0;
+    list-style-type:disc    
+}
+#travel{
+    height: 350px;
+    margin-right: 20px;
+}
+#proj1{
+    display: flex;
+    /* border: 2px solid white; */
+}
+#text1{
+    border:2px solid white;
+    padding: 10px;
+}
+#book{
+    height: 300px;
+    width: 580px;
+    margin-right: 20px;
+}
+#tcf{
+    height: 400px;
+}
+#quote{
+    color: rgb(182, 177, 177);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+#textintro{
+    color: white;
+    font-family: "Lekton", monospace;
+    margin-left: 30px;
+    font-size: larger;
+}
+#res{
+    font-size: larger;
+}
+#manager{
+    height: 350px;
+    width: 600px;
+    margin-right: 20px;
+}
+#end{
+    border: 2px solid white;
+    float: left;
+    padding: 5px;
+    border-radius: 8px;
+}
+#personal-lists{
+    height: 300px;
+    width: 610px;
+    margin-right: 20px;
+}
+#two-images{
+    display: block;
+    margin-left: -57px;
+}
